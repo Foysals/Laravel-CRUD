@@ -30,7 +30,8 @@
                         </div>
                         <div class="widget-chart-one-content text-center">
                 @if(Auth::user()->user_type==1)
-                            <h3 class="text-white mb-0 mt-2">Welcome to Admin Pannel</h3>   
+                            <h3 class="text-white mb-0 mt-2">Welcome to Admin Pannel</h3> 
+                            <h1>This project created base on Laravel crud and soft delete</h1>  
                             @else
                             <h3 class="text-white mb-0 mt-2">Welcome to Editor Pannel</h3>   
                             @endif
